@@ -8,6 +8,10 @@ RSpec.describe "Calculadora De Cadenas" do
         expect(calcularCadena("5")).to eq(5)
     end
 
-   
+    it "Deberia devolver el numero 6 para la cadena 5 y 1" do
+        expect(calcularCadena("5,1")).to eq(6)
+    end
+
+    
 end
 
